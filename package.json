@@ -1,7 +1,7 @@
 {
-  "name": "neptunesoftware-systemutils",
+  "name": "neptunesoftware-dxp-abb-requestanalyzer",
   "version": "1.0.0",
-  "description": "neptunesoftware-systemutils",
+  "description": "neptunesoftware-dxp-abb-requestanalyzer",
   "author": "Neptune Software",
   "license": "LicenseRef-LICENSE",
   "private": true,
