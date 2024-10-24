@@ -1,0 +1,3 @@
+const binding = TabTopUrl.getBinding("rows");
+const filter = new sap.ui.model.Filter("url", "Contains", this.getValue());
+binding.filter([filter]);

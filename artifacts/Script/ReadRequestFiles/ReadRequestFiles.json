@@ -1,0 +1,28 @@
+{
+	"id": "e4f2b290-7207-437d-8c1c-130beae9c4b8",
+	"createdAt": "2024-06-24T06:56:50.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_fs",
+			"name": "fs",
+			"contextname": "fs",
+			"path": "fs"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "ReadRequestFiles",
+	"ver": "24.06.24.1106",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e45b36dd-92eb-4417-a0b2-263b486859aa",
+	"package": "a4df8373-bf95-4b48-8693-b6ffe1119596"
+}

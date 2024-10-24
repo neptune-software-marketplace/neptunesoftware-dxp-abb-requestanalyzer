@@ -1,0 +1,7 @@
+.nepDynamicPage .sapFDynamicPageTitle {
+  padding: 0.5rem 0.8rem !important;
+}
+
+.nepDynamicPage .sapFDynamicPageHeader.sapFDynamicPageHeaderWithContent {
+  padding: 0 20px 5px 20px !important;
+}

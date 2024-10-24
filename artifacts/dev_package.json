@@ -1,0 +1,75 @@
+{
+	"id": "a4df8373-bf95-4b48-8693-b6ffe1119596",
+	"createdAt": "2024-06-24T08:45:18.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-requestanalyzer"
+	},
+	"name": "neptunesoftware-systemutils",
+	"description": "P9 System Utils",
+	"ver": "24.10.24.1208",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "ea26bf8c-97b9-45ca-86a6-71c412d112df",
+			"application": "p9_request_analyzer",
+			"title": "Request Analyzer",
+			"description": "Request Analyzer",
+			"package": {
+				"id": "a4df8373-bf95-4b48-8693-b6ffe1119596"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "14cecc51-b269-4efd-8ffb-4749b78e16b8",
+			"name": "SystemUtils",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "e4f2b290-7207-437d-8c1c-130beae9c4b8",
+			"name": "ReadRequestFiles",
+			"description": ""
+		},
+		{
+			"id": "3cf56478-71fb-42bd-932e-61a75119f793",
+			"name": "ParseRequestLog",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "e45b36dd-92eb-4417-a0b2-263b486859aa",
+			"name": "SystemUtils",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

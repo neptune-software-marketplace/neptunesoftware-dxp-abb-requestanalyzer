@@ -1,0 +1,24 @@
+const selectedItem = this.getSelectedItem();
+
+if (selectedItem) {
+    PageAnalyze.setBusy(true);
+
+    const context = selectedItem.getBindingContext();
+    const data = context.getObject();
+
+    const options = {
+        parameters: {
+            fileName: data.name,
+            pathing: ToolTopUrlPath.getSelectedKey(),
+            minutes: ToolTopUrlFilterTime.getSelectedKey(),
+            show: ToolTopExclude.getSelectedKey(),
+        },
+    };
+
+    apiGetRequestLog(options).then(function (res) {
+        modelTabTopUrl.setData(res.urlList);
+        modelTabUsers.setData(res.usersList);
+        modelPageAnalyze.setData(res.requestInfo);
+        PageAnalyze.setBusy(false);
+    });
+}
