@@ -5,9 +5,9 @@
 	"git": {
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-requestanalyzer"
 	},
-	"name": "neptunesoftware-systemutils",
-	"description": "P9 System Utils",
-	"ver": "24.10.24.1208",
+	"name": "neptunesoftware-dxp-abb-requestanalyzer",
+	"description": "neptunesoftware-dxp-abb-requestanalyzer",
+	"ver": "24.10.24.1447",
 	"enableCICD": true,
 	"apps": [
 		{
